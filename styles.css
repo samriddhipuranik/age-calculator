@@ -71,15 +71,6 @@ body {
         transform: translate(-50%, -50%);
         border : 100px solid black;
         border-image: url(https://th.bing.com/th/id/R.9e5d3aa6b66bebfee0ca42cea3cbb2fa?rik=DARXznEkXl%2faeQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fRcA%2fAp8%2fRcAAp8pei.png&ehk=1A3XvAySUz4YqD7rI2duCRNwgxxvk0HLNTjXXNLj7WI%3d&risl=&pid=ImgRaw&r=0) 29% round;
-    
-    
-    
-}
-h2 {
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	font-style: italic;
 }
 button,
 input {

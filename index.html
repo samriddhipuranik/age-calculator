@@ -32,22 +32,21 @@
 	</head>
 	<body>
     <div class="container">
-      <h2>Age Calculator</h2>
-      <main class="card">
+		<main class="card">
 			<div class="card__top">
 				<form novalidate autocomplete="off" id="date-form">
 					<p class="form__p">
 						<label for="day">day</label>
 						<input
-							type="tel"
-							required
-							maxlength="2"
-							placeholder="DD"
-							data-min="1"
-							data-max="31"
-							name="day"
-							id="day"
-							pattern="^[0-9]+$"
+						type="tel"
+						required
+						maxlength="2"
+						placeholder="DD"
+						data-min="1"
+						data-max="31"
+						name="day"
+						id="day"
+						pattern="^[0-9]+$"
 						/>
 						<small class="hint" id="day__hint"></small>
 					</p>
@@ -64,8 +63,8 @@
 							name="month"
 							id="month"
 							pattern="^[0-9]+$"
-						/>
-						<small class="hint" id="month__hint"></small>
+							/>
+							<small class="hint" id="month__hint"></small>
 					</p>
 
 					<p class="form__p">
@@ -86,10 +85,10 @@
 			<div class="card__middle">
 				<button type="submit" form="date-form">
 					<img
-						src="./assets/images/icon-arrow.svg"
-						alt="calculate age"
-						width="44"
-						height="46"
+					src="./assets/images/icon-arrow.svg"
+					alt="calculate age"
+					width="44"
+					height="46"
 					/>
 				</button>
 			</div>
