@@ -6,11 +6,11 @@
 	--desktop: 1440px;
 
 	/* colors */
-	--purple: hsla(25, 90%, 23%, 0.858);
+	--brown: hsla(25, 90%, 23%, 0.858);
 	--light-red: hsl(0, 100%, 67%);
 	--white: hsl(0, 0%, 100%);
 	--off-white: hsl(58, 81%, 84%);
-	--light-grey: hsl(45, 89%, 57%);
+	--light-yellow: hsl(45, 89%, 57%);
 	--smokey-grey: hsl(0, 1%, 44%);
 	--off-black: hsl(0, 0%, 8%);
     --light-coffee: rgb(237, 254, 209);
@@ -135,13 +135,13 @@ input {
 	width: 100%;
 	padding: 0.5em 0.75em;
 	outline: none;
-	border: 1px solid var(--light-grey);
-	caret-color: var(--purple);
+	border: 1px solid var(--light-yellow);
+	caret-color: var(--brown);
 	border-radius: 5px;
 }
 input:focus {
 	outline: none;
-	border: 1px solid var(--purple);
+	border: 1px solid var(--brown);
 }
 .hint {
 	font-size: var(--fs-200);
@@ -156,15 +156,15 @@ input:focus {
 	position: relative;
 	width: 100%;
 	height: 1px;
-	background-color: var(--light-grey);
+	background-color: var(--light-yellow);
 	margin: 3.75em 0;
 }
 
 button {
 	position: absolute;
-	background-color: var(--purple);
+	background-color: var(--brown);
 	outline: none;
-	border: 1px solid var(--light-grey);
+	border: 1px solid var(--light-yellow);
 	width: 4.5rem;
 	height: 4.5rem;
 	display: grid;
@@ -191,7 +191,7 @@ button:hover {
 	font-style: italic;
 }
 .age span {
-	color: var(--purple);
+	color: var(--brown);
 }
 
 .error {
