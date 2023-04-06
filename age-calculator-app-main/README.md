@@ -9,6 +9,6 @@ The app can be used by anyone who wants to quickly and easily calculate their ag
 
 
 ## Screenshots
-![name-of-you-image](Age calculator app and 6 more pages - Personal - Microsoft​ Edge 4_6_2023 8_42_33 PM.png)
+![App ScreenShot](./Age calculator app and 6 more pages - Personal - Microsoft​ Edge 4_6_2023 8_42_33 PM.png)
 
 
