@@ -75,6 +75,12 @@ body {
     
     
 }
+h2 {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-style: italic;
+}
 button,
 input {
 	font: inherit;
