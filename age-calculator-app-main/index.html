@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Solution for Frontend Mentor's Age calculator app"
+		/>
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="preload"
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+			as="style"
+			onload="this.onload=null;this.rel='stylesheet'"
+		/>
+		<!-- stylesheet -->
+		<link rel="stylesheet" href="./styles.css" />
+
+		<link
+			rel="icon"
+			href="./assets/images/que_icon.png"
+			sizes="32x32"
+
+		/>
+
+		<title>Age calculator app</title>
+   
+	</head>
+	<body>
+    <div class="container">
+      <h2>Age Calculator</h2>
+      <main class="card">
+			<div class="card__top">
+				<form novalidate autocomplete="off" id="date-form">
+					<p class="form__p">
+						<label for="day">day</label>
+						<input
+							type="tel"
+							required
+							maxlength="2"
+							placeholder="DD"
+							data-min="1"
+							data-max="31"
+							name="day"
+							id="day"
+							pattern="^[0-9]+$"
+						/>
+						<small class="hint" id="day__hint"></small>
+					</p>
+
+					<p class="form__p">
+						<label for="month">month</label>
+						<input
+							type="tel"
+							required
+							maxlength="2"
+							placeholder="MM"
+							data-min="1"
+							data-max="12"
+							name="month"
+							id="month"
+							pattern="^[0-9]+$"
+						/>
+						<small class="hint" id="month__hint"></small>
+					</p>
+
+					<p class="form__p">
+						<label for="year">year</label>
+						<input
+							type="tel"
+							required
+							maxlength="4"
+							placeholder="YYYY"
+							name="year"
+							id="year"
+							pattern="^[0-9]{4}$"
+						/>
+						<small class="hint" id="year__hint"></small>
+					</p>
+				</form>
+			</div>
+			<div class="card__middle">
+				<button type="submit" form="date-form">
+					<img
+						src="./assets/images/icon-arrow.svg"
+						alt="calculate age"
+						width="44"
+						height="46"
+					/>
+				</button>
+			</div>
+			<div class="card__bottom">
+				<ul class="age-list">
+					<li class="age"><span id="age__years">--</span> years</li>
+					<li class="age"><span id="age__months">--</span> months</li>
+					<li class="age"><span id="age__days">--</span> days</li>
+				</ul>
+			</div>
+		</main>
+    </div>
+	<!-- to calculate the difference between two dates -->
+		<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+		<script src="./script.js"></script>
+	</body>
+</html>
